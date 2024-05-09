@@ -3,7 +3,7 @@ const app = express();
 const port = 3000; // You can choose any available port
  
 app.get('/', (req, res) => {
-  res.send('Hello, Express! app development');
+  res.send('Hello, Supabase! app development');
 });
  
 app.listen(port, () => {
